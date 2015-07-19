@@ -11,7 +11,16 @@
 |
 */
 
+/*
 Route::get('/', function()
 {
 	return View::make('hello');
 });
+Route::controller('usuarios','Login');
+*/
+
+Route::get('login', function()
+{
+    return View::make('login');   
+}
+);
